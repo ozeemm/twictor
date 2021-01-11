@@ -6,7 +6,7 @@
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 	color: #FFFFFF;
-   }
+   } 
 </style>
 </head>
 
@@ -23,13 +23,24 @@ h1 {
 <img src="https://i.gifer.com/ZVmP.gif" height=400 width=1813>
 <img src="https://steamuserimages-a.akamaihd.net/ugc/777281349281148378/64CF3B98F9DD24771A11908AF9DA71F20A88E465/" height=250 width=299>
 <img src="https://steamuserimages-a.akamaihd.net/ugc/777281349281148378/64CF3B98F9DD24771A11908AF9DA71F20A88E465/" height=250 width=299>
-<a href="https://discord.gg/3Z6eKkgN8t" title="Ламповое общение" target="_blank"><img src="https://steamuserimages-a.akamaihd.net/ugc/777281349281148378/64CF3B98F9DD24771A11908AF9DA71F20A88E465/" height=250 width=299></a>
 <img src="https://steamuserimages-a.akamaihd.net/ugc/777281349281148378/64CF3B98F9DD24771A11908AF9DA71F20A88E465/" height=250 width=299>
 <img src="https://steamuserimages-a.akamaihd.net/ugc/777281349281148378/64CF3B98F9DD24771A11908AF9DA71F20A88E465/" height=250 width=299>
 <img src="https://steamuserimages-a.akamaihd.net/ugc/777281349281148378/64CF3B98F9DD24771A11908AF9DA71F20A88E465/" height=250 width=299>
-
+<img src="https://steamuserimages-a.akamaihd.net/ugc/777281349281148378/64CF3B98F9DD24771A11908AF9DA71F20A88E465/" height=250 width=299>
+<button onclick="ShowHideDS()">Ламповое общение</button>
 <script>
+//document.getElementById("DISCORD").style.display = "none";
 setInterval("confirm('Тут могла быть ваша реклама')", 12000);
+
+function ShowHideDS() {
+  var x = document.getElementById("DISCORD");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
 </script>
+<div id="DISCORD"><iframe src="https://discord.com/widget?id=617368227554656256&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe></div>
 </body>
 </html>
